@@ -1,47 +1,61 @@
-## Specyfikacja Techniczna
+## Technical Specification
 
-### Opis Klas i Metod
+### Class and Method Descriptions
 
-#### Warstwa Aplikacji (.NET 8.0)
+#### Application Layer (.NET 8.0)
 
 1. **Controllers**
-   - **UserController**
-     - `GetUser(int id)`: Zwraca użytkownika o podanym ID.
-     - `CreateUser(UserDto userDto)`: Tworzy nowego użytkownika.
-     - `UpdateUser(int id, UserDto userDto)`: Aktualizuje dane użytkownika o podanym ID.
-     - `DeleteUser(int id)`: Usuwa użytkownika o podanym ID.
+   - **ContactController**
+     - `GetById(int id)`: Returns a user with the specified ID.
+     - `GetAll(int id)`: Returns all users.
+     - `Create(ContactDto contactDto)`: Creates a new user.
+     - `Update(int id, ContactDto contactDto)`: Updates user data for the specified ID.
+     - `Delete(int id)`: Deletes a user with the specified ID.
+    
+   - **AuthorizationController**
+     - `Login(UserDTO loginDto)`: Logs in a user with the provided credentials.
 
 2. **Services**
-   - **UserService**
-     - `GetUser(int id)`: Pobiera użytkownika z repozytorium.
-     - `CreateUser(UserDto userDto)`: Dodaje nowego użytkownika do repozytorium.
-     - `UpdateUser(int id, UserDto userDto)`: Aktualizuje dane użytkownika w repozytorium.
-     - `DeleteUser(int id)`: Usuwa użytkownika z repozytorium.
+   - **ContactService**
+     - `GetContactByIdAsync(int id)`: Retrieves a user from the repository.
+     - `GetAllContactsAsync()`: Retrieves all users from the repository.
+     - `AddContactAsync(ContactDTO contactDTO)`: Adds a new user to the repository.
+     - `UpdateContactAsync(int id, ContactDTO contactDTO)`: Updates user data in the repository.
+     - `DeleteContactAsync(int id)`: Deletes a user from the repository.
+    
+   - **AuthService**
+     - `LoginAsync(string email, string password)`: Logs in a user.
+     - `HashPassword(string password)`: Encrypts the password.
+     - `VerifyPassword(string password, string hashedPassword)`: Verifies the provided password.
 
 3. **Repositories**
+   - **ContactRepository**
+     - `GetByIdAsync(int id)`: Retrieves a user from the database.
+     - `GetAllAsync()`: Retrieves all users from the database.
+    
    - **UserRepository**
-     - `GetById(int id)`: Pobiera użytkownika z bazy danych.
-     - `Add(User user)`: Dodaje nowego użytkownika do bazy danych.
-     - `Update(User user)`: Aktualizuje dane użytkownika w bazie danych.
-     - `Delete(int id)`: Usuwa użytkownika z bazy danych.
+     - `GetByEmailAsync(string email)`: Retrieves a user's email.
 
-#### Warstwa Prezentacji (Angular)
+   - **BaseRepository**
+     - Performs basic operations like add, update, and delete.
+
+#### Presentation Layer (Angular)
 
 1. **Components**
-   - **UserComponent**
-     - `ngOnInit()`: Inicjalizuje dane użytkownika.
-     - `createUser()`: Wywołuje serwis do stworzenia nowego użytkownika.
-     - `updateUser()`: Wywołuje serwis do aktualizacji danych użytkownika.
-     - `deleteUser()`: Wywołuje serwis do usunięcia użytkownika.
+   - **ContactListComponent**
+     - Displays a list of users with an option to add new ones.
+   - **ContactFormComponent**
+     - A form for editing user details.
+   - **ContactDetailsComponent**
+     - Displays user details with options to edit or delete the user.
 
 2. **Services**
-   - **UserService**
-     - `getUser(id: number)`: Pobiera dane użytkownika z API.
-     - `createUser(user: User)`: Wysyła żądanie do API w celu stworzenia nowego użytkownika.
-     - `updateUser(id: number, user: User)`: Wysyła żądanie do API w celu aktualizacji danych użytkownika.
-     - `deleteUser(id: number)`: Wysyła żądanie do API w celu usunięcia użytkownika.
+   - **AuthService**
+     - Provides authentication methods like `login()`.
+   - **ContactService**
+     - Provides CRUD methods for contacts.
 
-### Wykorzystane Biblioteki
+### Libraries Used
 
 1. **.NET 8.0**
    - Entity Framework Core
@@ -52,39 +66,39 @@
    - RxJS
    - Angular Forms
 
-### Sposób Kompilacji Aplikacji
+### Compilation Instructions
 
 #### Backend (.NET 8.0)
 
-Aby zaktualizować bazę danych za pomocą migracji w projekcie .NET z Entity Framework, wykonaj następujące kroki:
+To update the database using migrations in a .NET project with Entity Framework, follow these steps:
 
-### Aktualizacja bazy danych migracją
+### Updating the Database with Migrations
 
-1. **Otwórz terminal w katalogu projektu backendowego.**
-2. **Wykonaj migrację bazy danych:**
+1. **Open the terminal in the backend project directory.**
+2. **Apply the database migration:**
 
-   Użyj polecenia `dotnet ef` do zastosowania migracji. Upewnij się, że masz zainstalowane narzędzie Entity Framework CLI (dotnet-ef). Jeśli nie, możesz je zainstalować za pomocą polecenia:
+   Use the `dotnet ef` command to apply migrations. Ensure you have the Entity Framework CLI tool installed (dotnet-ef). If not, you can install it with the following command:
    ```bash
    dotnet tool install --global dotnet-ef
    ```
 
-3. **Zastosuj migracje:**
+3. **Apply the migrations:**
 
-   Wykonaj poniższe polecenie, aby zastosować wszystkie dostępne migracje do bazy danych:
+   Execute the following command to apply all available migrations to the database:
    ```bash
    dotnet ef database update
    ```
 
-### Przykład:
+### Example:
 
 ```bash
-cd /path/to/your/project
-dotnet ef database update
+cd /path/to/your/project/
+dotnet ef database update "/path/to/your/project/NETPCApp.Infrastructure/NETPCApp.Infrastructure.csproj" --startup-project "/path/to/your/project/NETPCApp.Server/NETPCApp.Server.csproj"
 ```
 
-Po wykonaniu tych kroków baza danych zostanie zaktualizowana zgodnie z wszystkimi zdefiniowanymi migracjami. Teraz możesz uruchomić aplikację.
+After completing these steps, the database will be updated according to all defined migrations. Now you can run the application.
 
-### Uruchomienie aplikacji
+### Running the Application
 
 #### Backend (.NET 8.0)
 
@@ -98,32 +112,37 @@ dotnet run
 ng serve
 ```
 
-1. Otwórz terminal w katalogu projektu backendowego.
-2. Wykonaj polecenie:
+1. Open the terminal in the backend project directory.
+2. Execute the command:
    ```bash
    dotnet build
    ```
-3. Aby uruchomić aplikację, użyj polecenia:
+3. To run the application, use the command:
    ```bash
    dotnet run
    ```
 
 #### Frontend (Angular)
 
-1. Otwórz terminal w katalogu projektu frontendowego.
-2. Zainstaluj zależności:
+1. Open the terminal in the frontend project directory.
+2. Install dependencies:
    ```bash
    npm install
    ```
-3. Skompiluj aplikację:
+3. Compile the application:
    ```bash
    ng build
    ```
-4. Aby uruchomić aplikację w trybie deweloperskim, użyj polecenia:
+4. To run the application in development mode, use the command:
    ```bash
    ng serve
    ```
+5. Then, open a browser and navigate to `http://localhost:4200/login` and log in with the following credentials:
+   - Email: `test@test.pl`
+   - Password: `test`
 
-### Architektura
+This should redirect the application to the contacts list.
 
-Aplikacja została zaprojektowana w stylu architektury heksagonalnej, co pozwala na rozdzielenie logiki biznesowej od infrastruktury. Dzięki temu logika biznesowa jest zamknięta w serwisach, które komunikują się z repozytoriami odpowiedzialnymi za dostęp do danych.
+### Architecture
+
+The application is designed using hexagonal architecture, which separates business logic from infrastructure. This ensures that business logic is encapsulated in services that communicate with repositories responsible for data access.
