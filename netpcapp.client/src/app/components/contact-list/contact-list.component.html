@@ -1,0 +1,11 @@
+<div class="contact-list">
+    <h2>Contact List</h2>
+    <ul>
+      <li *ngFor="let contact of contacts" (click)="selectContact(contact)">
+        <h3>{{ contact.firstName }} {{ contact.lastName }}</h3>
+        <p>{{ contact.email }}</p>
+        <p>{{ contact.phone }}</p>
+      </li>
+    </ul>
+    <button (click)="addContact()">Add New Contact</button>
+  </div>

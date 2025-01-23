@@ -1,0 +1,1 @@
+C:\DyskD\.NET Projects\NETPCApp\netpcapp.client\obj\Debug\netpcapp.client.esproj.CoreCompileInputs.cache

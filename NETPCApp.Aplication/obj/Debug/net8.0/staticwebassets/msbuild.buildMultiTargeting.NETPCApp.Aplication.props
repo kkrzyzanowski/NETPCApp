@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\NETPCApp.Aplication.props" />
+</Project>

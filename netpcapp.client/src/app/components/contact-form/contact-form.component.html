@@ -1,0 +1,48 @@
+<div class="contact-form">
+    <h2 *ngIf="isEditMode">Edit Contact</h2>
+    <h2 *ngIf="!isEditMode">Add New Contact</h2>
+    <form (ngSubmit)="onSubmit()">
+      <label for="firstName">First Name:</label>
+      <input id="firstName" type="text" [(ngModel)]="contact.firstName" name="firstName" required />
+  
+      <label for="lastName">Last Name:</label>
+      <input id="lastName" type="text" [(ngModel)]="contact.lastName" name="lastName" required />
+  
+      <label for="email">Email:</label>
+      <input id="email" type="email" [(ngModel)]="contact.email" name="email" required />
+  
+      <label for="phone">Phone:</label>
+      <input id="phone" type="text" [(ngModel)]="contact.phoneNumber" name="phoneNumber" required />
+  
+      <label for="category">Category:</label>
+      <select id="category" [(ngModel)]="contact.category" name="category" (change)="onCategoryChange()">
+        <option value="Personal">Personal</option>
+        <option value="Business">Business</option>
+        <option value="Other">Other</option>
+      </select>
+  
+      <div *ngIf="contact.category === 'Business'">
+        <label for="subcategory">Subcategory:</label>
+        <select id="subcategory" [(ngModel)]="contact.subcategory" name="subcategory">
+          <option value="Boss">Boss</option>
+          <option value="Client">Client</option>
+        </select>
+      </div>
+  
+      <div *ngIf="contact.category === 'Other'">
+        <label for="customSubcategory">Custom Subcategory:</label>
+        <input id="subcategory" type="text" [(ngModel)]="contact.subcategory" name="subcategory" />
+      </div>
+  
+      <label for="birthDate">Birth Date:</label>
+      <input id="birthDate" type="date" [(ngModel)]="contact.birthDate" name="birthDate" required />
+  
+      <label for="password">Password:</label>
+      <input id="password" type="password" [(ngModel)]="contact.password" name="password" required minlength="8" />
+      <small *ngIf="contact.password && contact.password.length < 8" class="password-warning">
+        Password must have at least 8 characters.
+      </small>
+      <button type="submit">Save</button>
+      <button type="button" (click)="cancel()">Cancel</button>
+    </form>
+  </div>

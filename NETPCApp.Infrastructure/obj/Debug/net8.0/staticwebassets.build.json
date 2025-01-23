@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "iO1LOw9/DuisKNcEuLC2J5LZDEzo8yYGSRf/Fy126U0=",
+  "Source": "NETPCApp.Infrastructure",
+  "BasePath": "_content/NETPCApp.Infrastructure",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Domain\\NETPCApp.Domain.csproj",
+      "Version": 2,
+      "Source": "NETPCApp.Domain",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

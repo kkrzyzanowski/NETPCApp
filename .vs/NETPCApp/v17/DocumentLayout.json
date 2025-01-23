@@ -1,0 +1,364 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\DyskD\\.NET Projects\\NETPCApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C9B01DCE-446B-4118-A3F2-4388D307FB0A}|NETPCApp.Infrastructure\\NETPCApp.Infrastructure.csproj|c:\\dyskd\\.net projects\\netpcapp\\netpcapp.infrastructure\\persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9B01DCE-446B-4118-A3F2-4388D307FB0A}|NETPCApp.Infrastructure\\NETPCApp.Infrastructure.csproj|solutionrelative:netpcapp.infrastructure\\persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D414AFE1-EC06-4F7B-9B06-166FF7C56C70}|NETPCApp.Server\\NETPCApp.Server.csproj|c:\\dyskd\\.net projects\\netpcapp\\netpcapp.server\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D414AFE1-EC06-4F7B-9B06-166FF7C56C70}|NETPCApp.Server\\NETPCApp.Server.csproj|solutionrelative:netpcapp.server\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D122AD0B-55F7-46C3-983A-BE890918B50C}|NETPCApp.Aplication\\NETPCApp.Aplication.csproj|c:\\dyskd\\.net projects\\netpcapp\\netpcapp.aplication\\services\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D122AD0B-55F7-46C3-983A-BE890918B50C}|NETPCApp.Aplication\\NETPCApp.Aplication.csproj|solutionrelative:netpcapp.aplication\\services\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D122AD0B-55F7-46C3-983A-BE890918B50C}|NETPCApp.Aplication\\NETPCApp.Aplication.csproj|c:\\dyskd\\.net projects\\netpcapp\\netpcapp.aplication\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D122AD0B-55F7-46C3-983A-BE890918B50C}|NETPCApp.Aplication\\NETPCApp.Aplication.csproj|solutionrelative:netpcapp.aplication\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D414AFE1-EC06-4F7B-9B06-166FF7C56C70}|NETPCApp.Server\\NETPCApp.Server.csproj|c:\\dyskd\\.net projects\\netpcapp\\netpcapp.server\\controllers\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D414AFE1-EC06-4F7B-9B06-166FF7C56C70}|NETPCApp.Server\\NETPCApp.Server.csproj|solutionrelative:netpcapp.server\\controllers\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D414AFE1-EC06-4F7B-9B06-166FF7C56C70}|NETPCApp.Server\\NETPCApp.Server.csproj|c:\\dyskd\\.net projects\\netpcapp\\netpcapp.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D414AFE1-EC06-4F7B-9B06-166FF7C56C70}|NETPCApp.Server\\NETPCApp.Server.csproj|solutionrelative:netpcapp.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D414AFE1-EC06-4F7B-9B06-166FF7C56C70}|NETPCApp.Server\\NETPCApp.Server.csproj|c:\\dyskd\\.net projects\\netpcapp\\netpcapp.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D414AFE1-EC06-4F7B-9B06-166FF7C56C70}|NETPCApp.Server\\NETPCApp.Server.csproj|solutionrelative:netpcapp.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDECA314-6D01-4C52-91A8-1650A2565B87}|NETPCApp.Domain\\NETPCApp.Domain.csproj|c:\\dyskd\\.net projects\\netpcapp\\netpcapp.domain\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDECA314-6D01-4C52-91A8-1650A2565B87}|NETPCApp.Domain\\NETPCApp.Domain.csproj|solutionrelative:netpcapp.domain\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDECA314-6D01-4C52-91A8-1650A2565B87}|NETPCApp.Domain\\NETPCApp.Domain.csproj|c:\\dyskd\\.net projects\\netpcapp\\netpcapp.domain\\irepositories\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDECA314-6D01-4C52-91A8-1650A2565B87}|NETPCApp.Domain\\NETPCApp.Domain.csproj|solutionrelative:netpcapp.domain\\irepositories\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDECA314-6D01-4C52-91A8-1650A2565B87}|NETPCApp.Domain\\NETPCApp.Domain.csproj|c:\\dyskd\\.net projects\\netpcapp\\netpcapp.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDECA314-6D01-4C52-91A8-1650A2565B87}|NETPCApp.Domain\\NETPCApp.Domain.csproj|solutionrelative:netpcapp.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D122AD0B-55F7-46C3-983A-BE890918B50C}|NETPCApp.Aplication\\NETPCApp.Aplication.csproj|c:\\dyskd\\.net projects\\netpcapp\\netpcapp.aplication\\dtos\\contactdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D122AD0B-55F7-46C3-983A-BE890918B50C}|NETPCApp.Aplication\\NETPCApp.Aplication.csproj|solutionrelative:netpcapp.aplication\\dtos\\contactdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D122AD0B-55F7-46C3-983A-BE890918B50C}|NETPCApp.Aplication\\NETPCApp.Aplication.csproj|c:\\dyskd\\.net projects\\netpcapp\\netpcapp.aplication\\mapper\\automapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D122AD0B-55F7-46C3-983A-BE890918B50C}|NETPCApp.Aplication\\NETPCApp.Aplication.csproj|solutionrelative:netpcapp.aplication\\mapper\\automapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D414AFE1-EC06-4F7B-9B06-166FF7C56C70}|NETPCApp.Server\\NETPCApp.Server.csproj|c:\\dyskd\\.net projects\\netpcapp\\netpcapp.server\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D414AFE1-EC06-4F7B-9B06-166FF7C56C70}|NETPCApp.Server\\NETPCApp.Server.csproj|solutionrelative:netpcapp.server\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9B01DCE-446B-4118-A3F2-4388D307FB0A}|NETPCApp.Infrastructure\\NETPCApp.Infrastructure.csproj|c:\\dyskd\\.net projects\\netpcapp\\netpcapp.infrastructure\\repositories\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9B01DCE-446B-4118-A3F2-4388D307FB0A}|NETPCApp.Infrastructure\\NETPCApp.Infrastructure.csproj|solutionrelative:netpcapp.infrastructure\\repositories\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D122AD0B-55F7-46C3-983A-BE890918B50C}|NETPCApp.Aplication\\NETPCApp.Aplication.csproj|c:\\dyskd\\.net projects\\netpcapp\\netpcapp.aplication\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D122AD0B-55F7-46C3-983A-BE890918B50C}|NETPCApp.Aplication\\NETPCApp.Aplication.csproj|solutionrelative:netpcapp.aplication\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9B01DCE-446B-4118-A3F2-4388D307FB0A}|NETPCApp.Infrastructure\\NETPCApp.Infrastructure.csproj|c:\\dyskd\\.net projects\\netpcapp\\netpcapp.infrastructure\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9B01DCE-446B-4118-A3F2-4388D307FB0A}|NETPCApp.Infrastructure\\NETPCApp.Infrastructure.csproj|solutionrelative:netpcapp.infrastructure\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9B01DCE-446B-4118-A3F2-4388D307FB0A}|NETPCApp.Infrastructure\\NETPCApp.Infrastructure.csproj|c:\\dyskd\\.net projects\\netpcapp\\netpcapp.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9B01DCE-446B-4118-A3F2-4388D307FB0A}|NETPCApp.Infrastructure\\NETPCApp.Infrastructure.csproj|solutionrelative:netpcapp.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D122AD0B-55F7-46C3-983A-BE890918B50C}|NETPCApp.Aplication\\NETPCApp.Aplication.csproj|c:\\dyskd\\.net projects\\netpcapp\\netpcapp.aplication\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D122AD0B-55F7-46C3-983A-BE890918B50C}|NETPCApp.Aplication\\NETPCApp.Aplication.csproj|solutionrelative:netpcapp.aplication\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D414AFE1-EC06-4F7B-9B06-166FF7C56C70}|NETPCApp.Server\\NETPCApp.Server.csproj|c:\\dyskd\\.net projects\\netpcapp\\netpcapp.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D414AFE1-EC06-4F7B-9B06-166FF7C56C70}|NETPCApp.Server\\NETPCApp.Server.csproj|solutionrelative:netpcapp.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9B01DCE-446B-4118-A3F2-4388D307FB0A}|NETPCApp.Infrastructure\\NETPCApp.Infrastructure.csproj|c:\\dyskd\\.net projects\\netpcapp\\netpcapp.infrastructure\\netpcapp.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C9B01DCE-446B-4118-A3F2-4388D307FB0A}|NETPCApp.Infrastructure\\NETPCApp.Infrastructure.csproj|solutionrelative:netpcapp.infrastructure\\netpcapp.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C405F0-1A6F-4C5B-8E3E-35FACAFF3764}|netpcapp.client\\netpcapp.client.esproj|c:\\dyskd\\.net projects\\netpcapp\\netpcapp.client\\netpcapp.client.esproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{96C405F0-1A6F-4C5B-8E3E-35FACAFF3764}|netpcapp.client\\netpcapp.client.esproj|solutionrelative:netpcapp.client\\netpcapp.client.esproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 217,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Server\\Startup.cs",
+              "RelativeDocumentMoniker": "NETPCApp.Server\\Startup.cs",
+              "ToolTip": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Server\\Startup.cs",
+              "RelativeToolTip": "NETPCApp.Server\\Startup.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAjwB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T12:58:06.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "NETPCApp.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "RelativeToolTip": "NETPCApp.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T12:18:52.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IContactRepository.cs",
+              "DocumentMoniker": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Domain\\IRepositories\\IContactRepository.cs",
+              "RelativeDocumentMoniker": "NETPCApp.Domain\\IRepositories\\IContactRepository.cs",
+              "ToolTip": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Domain\\IRepositories\\IContactRepository.cs",
+              "RelativeToolTip": "NETPCApp.Domain\\IRepositories\\IContactRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T23:28:04.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthorizationController.cs",
+              "DocumentMoniker": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Server\\Controllers\\AuthorizationController.cs",
+              "RelativeDocumentMoniker": "NETPCApp.Server\\Controllers\\AuthorizationController.cs",
+              "ToolTip": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Server\\Controllers\\AuthorizationController.cs",
+              "RelativeToolTip": "NETPCApp.Server\\Controllers\\AuthorizationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T12:59:19.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "NETPCApp.Server\\appsettings.json",
+              "ToolTip": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Server\\appsettings.json",
+              "RelativeToolTip": "NETPCApp.Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-22T13:12:49.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Aplication\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "NETPCApp.Aplication\\Services\\AuthService.cs",
+              "ToolTip": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Aplication\\Services\\AuthService.cs",
+              "RelativeToolTip": "NETPCApp.Aplication\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T14:02:50.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Server\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "NETPCApp.Server\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Server\\Properties\\launchSettings.json",
+              "RelativeToolTip": "NETPCApp.Server\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-22T13:14:40.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Domain\\Models\\User.cs",
+              "RelativeDocumentMoniker": "NETPCApp.Domain\\Models\\User.cs",
+              "ToolTip": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Domain\\Models\\User.cs",
+              "RelativeToolTip": "NETPCApp.Domain\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T23:06:51.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ContactRepository.cs",
+              "DocumentMoniker": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Infrastructure\\Repositories\\ContactRepository.cs",
+              "RelativeDocumentMoniker": "NETPCApp.Infrastructure\\Repositories\\ContactRepository.cs",
+              "ToolTip": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Infrastructure\\Repositories\\ContactRepository.cs",
+              "RelativeToolTip": "NETPCApp.Infrastructure\\Repositories\\ContactRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T12:18:58.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Aplication\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "NETPCApp.Aplication\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Aplication\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "NETPCApp.Aplication\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T22:59:19.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Infrastructure\\Repositories\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "NETPCApp.Infrastructure\\Repositories\\BaseRepository.cs",
+              "ToolTip": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Infrastructure\\Repositories\\BaseRepository.cs",
+              "RelativeToolTip": "NETPCApp.Infrastructure\\Repositories\\BaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T12:19:10.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "NETPCApp.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "NETPCApp.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T12:18:35.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Aplication\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "NETPCApp.Aplication\\DTOs\\UserDTO.cs",
+              "ToolTip": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Aplication\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "NETPCApp.Aplication\\DTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T13:47:19.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Server\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "NETPCApp.Server\\appsettings.Development.json",
+              "ToolTip": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Server\\appsettings.Development.json",
+              "RelativeToolTip": "NETPCApp.Server\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-22T13:14:11.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NETPCApp.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Infrastructure\\NETPCApp.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "NETPCApp.Infrastructure\\NETPCApp.Infrastructure.csproj",
+              "ToolTip": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Infrastructure\\NETPCApp.Infrastructure.csproj",
+              "RelativeToolTip": "NETPCApp.Infrastructure\\NETPCApp.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-22T12:19:17.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "netpcapp.client",
+              "DocumentMoniker": "C:\\DyskD\\.NET Projects\\NETPCApp\\netpcapp.client\\netpcapp.client.esproj",
+              "RelativeDocumentMoniker": "netpcapp.client\\netpcapp.client.esproj",
+              "ToolTip": "C:\\DyskD\\.NET Projects\\NETPCApp\\netpcapp.client\\netpcapp.client.esproj",
+              "RelativeToolTip": "netpcapp.client\\netpcapp.client.esproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-21T23:40:37.266Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 217,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Domain\\IRepositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "NETPCApp.Domain\\IRepositories\\IUserRepository.cs",
+              "ToolTip": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Domain\\IRepositories\\IUserRepository.cs",
+              "RelativeToolTip": "NETPCApp.Domain\\IRepositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T22:53:05.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContactService.cs",
+              "DocumentMoniker": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Aplication\\Services\\ContactService.cs",
+              "RelativeDocumentMoniker": "NETPCApp.Aplication\\Services\\ContactService.cs",
+              "ToolTip": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Aplication\\Services\\ContactService.cs",
+              "RelativeToolTip": "NETPCApp.Aplication\\Services\\ContactService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T22:52:37.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ContactDTO.cs",
+              "DocumentMoniker": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Aplication\\DTOs\\ContactDTO.cs",
+              "RelativeDocumentMoniker": "NETPCApp.Aplication\\DTOs\\ContactDTO.cs",
+              "ToolTip": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Aplication\\DTOs\\ContactDTO.cs",
+              "RelativeToolTip": "NETPCApp.Aplication\\DTOs\\ContactDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T22:38:21.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AutoMapper.cs",
+              "DocumentMoniker": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Aplication\\Mapper\\AutoMapper.cs",
+              "RelativeDocumentMoniker": "NETPCApp.Aplication\\Mapper\\AutoMapper.cs",
+              "ToolTip": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Aplication\\Mapper\\AutoMapper.cs",
+              "RelativeToolTip": "NETPCApp.Aplication\\Mapper\\AutoMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T17:46:46.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ContactsController.cs",
+              "DocumentMoniker": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Server\\Controllers\\ContactsController.cs",
+              "RelativeDocumentMoniker": "NETPCApp.Server\\Controllers\\ContactsController.cs",
+              "ToolTip": "C:\\DyskD\\.NET Projects\\NETPCApp\\NETPCApp.Server\\Controllers\\ContactsController.cs",
+              "RelativeToolTip": "NETPCApp.Server\\Controllers\\ContactsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T15:47:20.648Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
